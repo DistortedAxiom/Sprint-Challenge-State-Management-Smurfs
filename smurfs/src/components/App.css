@@ -1,3 +1,24 @@
 .App {
   text-align: center;
 }
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.smurf-form {
+  display: flex;
+  flex-direction: column;
+  width: 15rem;
+}
+
+.smurf-form label {
+  margin-top: 0.5rem;
+}
+
+.smurf-form input {
+  margin-bottom: 2rem;
+  margin-top: 0.5rem;
+}
